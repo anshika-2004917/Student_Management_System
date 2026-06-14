@@ -20,29 +20,7 @@ A console-based Student Management System developed using Python and MySQL. This
 * MySQL
 * mysql-connector-python
 
-## Database Setup
 
-Create a database named `student_db` and run the following SQL commands:
-
-```sql
-CREATE DATABASE student_db;
-
-USE student_db;
-
-CREATE TABLE students (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
-    course VARCHAR(100) NOT NULL,
-    email VARCHAR(100) UNIQUE,
-    phone VARCHAR(15)
-);
-```
-
-## How to Run
-
-```bash
-python student_management.py
-```
 
 ## Menu Options
 
